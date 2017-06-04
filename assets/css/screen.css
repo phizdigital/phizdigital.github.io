@@ -990,6 +990,20 @@ body.nav-opened .nav {
     box-shadow: #FFF 0 0 0 5px;
 }
 
+.post-image {
+    transition: all ease-out 1s;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0
+}
+
+.post-image img {
+    width: 100%;
+}
+
 body:not(.post-template) .post-title {
     font-size: 3.6rem;
 }
@@ -1133,7 +1147,7 @@ body:not(.post-template) .post-title {
    text column to break out. */
 .post-content img {
     display: block;
-    max-width: 126%;
+    max-width: 100%;
     height: auto;
     padding: 0.6em 0;
     /* Centers an image by (1) pushing its left edge to the
